@@ -1,0 +1,57 @@
+body {
+  background-color: #222;
+}
+.content {
+  width: 800px;
+  margin: auto;
+  border: 4px solid #aad;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: #333;
+  color: #f0f0f0;
+}
+.footer {
+  color: #666;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.content h1 {
+  color: #aad;
+}
+
+.location {
+  width: 440px;
+  margin: auto;
+  border: 4px solid #aad;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.location img {
+  width: 400px;
+  margin: 20px;
+  margin-top: 0;
+  border: 1px solid #aad;
+}
+.location .text {
+  padding: 10px;
+  background-color: #222;
+}
+
+.location .menu { margin: 0; }
+.location .menu ul {
+  list-style: none;
+  cursor: default;
+  margin-bottom: 0;
+}
+.location .menu ul li {
+  padding: 8px 20px 4px 20px;
+  margin: 0;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #222;
+  border-radius: 12px 12px 0 0;
+}
+.location .menu ul li:hover {
+  background-color: #111;
+}
